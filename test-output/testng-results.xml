@@ -1,11 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3190" started-at="2020-06-16T20:39:17 IST" finished-at="2020-06-16T20:39:20 IST">
+  <suite name="Default suite" duration-ms="25165" started-at="2020-06-23T14:23:17 IST" finished-at="2020-06-23T14:23:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3190" started-at="2020-06-16T20:39:17 IST" finished-at="2020-06-16T20:39:20 IST">
+    <test name="Default test" duration-ms="25165" started-at="2020-06-23T14:23:17 IST" finished-at="2020-06-23T14:23:42 IST">
+      <class name="DaVitaApiTest.adminAPITestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="setUp" is-config="true" duration-ms="375" started-at="2020-06-23T14:23:17 IST" finished-at="2020-06-23T14:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogin()[pri:1, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="invalidLogin" duration-ms="2447" started-at="2020-06-23T14:23:18 IST" description="Validate invalid login with username and password" finished-at="2020-06-23T14:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="validLogin()[pri:2, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="validLogin" duration-ms="1439" started-at="2020-06-23T14:23:20 IST" description="Validate user login with valid username and password" finished-at="2020-06-23T14:23:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="adminUserDetails()[pri:3, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="adminUserDetails" duration-ms="2342" started-at="2020-06-23T14:23:22 IST" description="Verify user and their details after login" finished-at="2020-06-23T14:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminUserDetails -->
+        <test-method status="PASS" signature="createNewUser()[pri:4, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="createNewUser" duration-ms="2363" started-at="2020-06-23T14:23:24 IST" description="Validate create new user" finished-at="2020-06-23T14:23:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method status="PASS" signature="alluserList()[pri:5, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="alluserList" duration-ms="1341" started-at="2020-06-23T14:23:26 IST" description="Validate individual user present in the lists" finished-at="2020-06-23T14:23:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alluserList -->
+        <test-method status="PASS" signature="archiveUser()[pri:6, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="archiveUser" duration-ms="1904" started-at="2020-06-23T14:23:28 IST" description="Validate archive of user" finished-at="2020-06-23T14:23:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveUser -->
+        <test-method status="PASS" signature="clinicDetails()[pri:7, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="clinicDetails" duration-ms="555" started-at="2020-06-23T14:23:30 IST" description="Validate clinic details" finished-at="2020-06-23T14:23:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clinicDetails -->
+        <test-method status="PASS" signature="deleteUser()[pri:8, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="deleteUser" duration-ms="2057" started-at="2020-06-23T14:23:30 IST" description="Validate created user deleted" finished-at="2020-06-23T14:23:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="filterByAdmin()[pri:9, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="filterByAdmin" duration-ms="1213" started-at="2020-06-23T14:23:32 IST" description="Validate filter by admin and some other parameter" finished-at="2020-06-23T14:23:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByAdmin -->
+        <test-method status="PASS" signature="filterByPatient()[pri:10, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="filterByPatient" duration-ms="1838" started-at="2020-06-23T14:23:33 IST" description="Validate filter by paient and some other parameter" finished-at="2020-06-23T14:23:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByPatient -->
+        <test-method status="PASS" signature="filterByPhysician()[pri:11, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="filterByPhysician" duration-ms="1100" started-at="2020-06-23T14:23:35 IST" description="Validate filter by admin and some other parameter" finished-at="2020-06-23T14:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByPhysician -->
+        <test-method status="PASS" signature="filterByCombineRoleType()[pri:12, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="filterByCombineRoleType" duration-ms="1063" started-at="2020-06-23T14:23:36 IST" description="Validate filter under admin" finished-at="2020-06-23T14:23:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByCombineRoleType -->
+        <test-method status="PASS" signature="totalVideosCount()[pri:13, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="totalVideosCount" duration-ms="1519" started-at="2020-06-23T14:23:37 IST" description="Validate total videos count under education menu of patient user" finished-at="2020-06-23T14:23:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalVideosCount -->
+        <test-method status="PASS" signature="VideoPlay()[pri:14, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="VideoPlay" duration-ms="1762" started-at="2020-06-23T14:23:39 IST" description="Validate percentage of Video play" finished-at="2020-06-23T14:23:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoPlay -->
+        <test-method status="PASS" signature="surveyDetails()[pri:15, instance:DaVitaApiTest.adminAPITestCases@186dec2]" name="surveyDetails" duration-ms="1705" started-at="2020-06-23T14:23:41 IST" description="Validate survey details under patient" finished-at="2020-06-23T14:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surveyDetails -->
+      </class> <!-- DaVitaApiTest.adminAPITestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

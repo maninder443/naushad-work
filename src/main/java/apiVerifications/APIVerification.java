@@ -40,6 +40,14 @@ public class APIVerification extends ExtentReportListner{
 		}
 	}
 	
+	public static void responseJsonValidation(Response response) {
+		try {
+			String json=response.getBody().jsonPath().prettify();
+			test.log(LogStatus.INFO, "Api response in json format is :: " + json);
+		} catch (Exception e) {
+			test.log(LogStatus.FAIL, e.fillInStackTrace());
+		}
+	}
 	
 	public static void responseKeyValidationFromJsonObject(Response response, String key) {
 		try {
